@@ -89,7 +89,8 @@ img {
 .letters,
 .main_content,
 .introduction,
-.alphabet_superset {
+.alphabet_superset,
+.paragraph_post {
   color: black;
   margin: 0.5em;
   background-color: white;
@@ -98,7 +99,8 @@ img {
 .index_alphabet,
 .main_content,
 .introduction,
-.alphabet_superset {
+.alphabet_superset,
+.paragraph_post {
   padding: 1em;
 }
 
