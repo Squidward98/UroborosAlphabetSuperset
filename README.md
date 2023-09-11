@@ -1,6 +1,6 @@
 # Uroboros Alphabet Superset
 
-El Alphabet Superset es un challenge artístico creado por el ilustrador y youtuber Campbell Walker
+El Alphabet Superset es un challenge artístico creado por el ilustrador y youtuber Campbell Walker.
 
 Tiene la finalidad de producir una composición artística por semana, durante 26 semanas a partir del 04/09/2023. Cada tema semanal es a elección del autor y comienza con una letra diferente del abecedario. De la A a la Z pero con un pequeño giro: si bien el tema cambia semanalmente, el medio, el estilo y la temática principal son siempre iguales.
 
