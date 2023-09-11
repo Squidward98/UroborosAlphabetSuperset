@@ -1,0 +1,135 @@
+/* Fonts-sizes */
+:root {
+  --font-display: 4.6em;
+  --font-jumbo: 3.8em;
+  --font-xlarge: 3em;
+  --font-large: 2.4em;
+  --font-medium: 1.8em;
+  --font-small: 1.6em;
+  --font-xsmall: 1.4em;
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  display: flex;
+  flex-direction: column;
+  gap: 2em;
+  justify-content: space-between;
+  min-height: 100vh;
+  background-size: 50%;
+  background-image: url("../imgs/fondo.jpg");
+}
+
+p,
+h2,
+a {
+  margin: 0.4em;
+}
+
+p,
+li {
+  font-size: var(--font-small);
+}
+
+h2 {
+  font-size: var(--font-large);
+}
+
+ul,
+ol {
+  list-style-type: none;
+}
+
+img {
+  width: 100%;
+}
+
+.footer_flex_container,
+.header_flex_container {
+  padding: 0.5em 20em;
+  margin: -0.5em -0.5em;
+  background-color: black;
+  color: white;
+  min-height: 7em;
+}
+
+.main_flex_container {
+  display: flex;
+  flex-direction: row;
+  margin: 0 20em;
+  padding: 30em auto;
+  background-color: rgba(128, 128, 128, 0.548);
+  order: 1;
+}
+
+.footer_flex_container {
+  order: 2;
+}
+
+.header_flex_container {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.index_alphabet,
+.letters,
+.main_content,
+.introduction,
+.alphabet_superset {
+  color: black;
+  margin: 0.5em;
+  background-color: white;
+}
+
+.index_alphabet,
+.main_content,
+.introduction,
+.alphabet_superset {
+  padding: 1em;
+}
+
+header p {
+  margin: 0 1.5em;
+  font-size: 3em;
+  width: 5em;
+  order: -1;
+}
+
+header i {
+  font-size: 2.5em;
+  padding-left: 2em;
+}
+
+aside p {
+  margin: 0.5%;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+a:hover {
+  color: black;
+  text-decoration: underline;
+}
+
+footer p {
+  margin: 0;
+  padding: 0.5em 1.5em;
+  font-size: 3em;
+}
